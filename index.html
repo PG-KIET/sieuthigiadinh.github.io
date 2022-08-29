@@ -1,0 +1,1569 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Siêu thị gia đình</title>
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"/>
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome/css/all.min.css">
+    <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico">
+</head>
+<body >
+    <div class="main">
+        <header class="header">
+                <nav class="header-top">
+                    <div class="wrapper navbar">
+                            <ul class="navbar-list">
+                                <li class="navbar-item separate has-qr">
+                                    Vào siêu thị Gia Đình
+        
+                                    <!-- Header QR code -->
+                                    <div class="header__qr">
+                                        <img src="./assets/img/qrcode_29102192_.png" alt="QR-Code" class="qr-img"> 
+                                        <div class="qr-apps">
+                                            <a href="" class="qr-link"><img src="./assets/img/google_play.png" alt="google play" class="qr-download"></a>
+                                            <a href="" class="qr-link"> <img src="./assets/img/app_store.png" alt="app store" class="qr-download"></a>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="navbar-item">
+                                    <span class="navbar-title-no-pointer">Kết nối </span>
+                                    <a href="" class="navbar-icon-link">
+                                        <i class="navbar-icon fa-brands fa-facebook"></i>
+                                    </a>
+                                    <a href="" class="navbar-icon-link">
+                                        <i class="navbar-icon fa-brands fa-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-list">
+                                <li class="navbar-item has-notify">
+                                   <a href="" class="navbar-item-link">
+                                    <i class="navbar-icon fa-regular fa-bell"></i>
+                                     Thông báo
+                                    </a>
+                                    <div class="header-notify">
+                                        <header class="notify-header">
+                                            <h3>Thông Báo Mới Nhận</h3>
+                                        </header>
+                                        <ul class="notify-list">
+                                            <li class="notify-item notify-item--view">
+                                                <a href="" class="notify-link">
+                                                    <img src="/assets/img/cart-item-3.webp" alt="" class="notify-img">
+                                                    <div class="notify-info">
+                                                        <span class="notify-name">Bình nước giữ nhiệt tốt nhất tại thời điểm hiện tại</span>
+                                                        <span class="notify-desc">Bình giữ nhiệt được làm từ 2 lớp inox 304 cao cấp, an toàn cho sức khỏe.</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="notify-item notify-item--view">
+                                                <a href="" class="notify-link">
+                                                    <img src="/assets/img/banner-item4.jpg" alt="" class="notify-img">
+                                                    <div class="notify-info">
+                                                        <span class="notify-name">Sale Bếp từ Smaragd SALE OFF 65%</span>
+                                                        <span class="notify-desc">Giá chỉ còn 900.000 (giá gốc: 2.600.000 vnd)</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                            <li class="notify-item  ">
+                                                <a href="" class="notify-link">
+                                                    <img src="/assets/img/product_2_1.webp" alt="" class="notify-img">
+                                                    <div class="notify-info">
+                                                        <span class="notify-name">Máy vắt cam Bosch MCP3500 mới được nhập khẩu từ Úc</span>
+                                                        <span class="notify-desc">Giúp bạn dễ dàng vắt kiệt nước của quả chanh, cam chỉ với một thao tác cắt đôi và ấn nửa quả vào đầu máy.</span>
+                                                    </div>
+                                                </a>
+                                            </li>
+                                        </ul>
+                                        <footer class="notify-footer">
+                                            <a href="" class="notify-footer-btn">Xem tất cả </a>
+                                        </footer>
+                                    </div>
+                                </li>
+                                <li class="navbar-item">
+                                    <a href="" class="navbar-item-link"> 
+                                        <i class="navbar-icon fa-regular fa-circle-question"></i>
+                                        Trợ giúp 
+                                    </a>
+                                </li>
+                                    <li class="navbar-item strong separate js-register">Đăng ký</li>
+                                    <li class="navbar-item strong js-login">Đăng Nhập</li>
+                            </ul>
+                    </div>
+                </nav>
+
+                <!-- Header with search -->
+            
+                <div class="header-bottom">
+                    <div class="header-with-search wrapper">
+                        <div class="header-logo ">
+                           <a href="/" class="header-logo-link">
+                              <img src="/assets/img/logo.webp" alt="Siêu thị gia đình" class="logo-img">
+                           </a>
+                        </div>
+    
+                        <div class="header-search">
+                            <div class="search-input-wrap">
+                                <input type="text" class="search-input" placeholder="Nhập để tìm kiếm sản phẩm">
+                              
+                                <!-- search history -->
+                                <div class="search-history">
+                                    <h3 class="history-heading">Lịch sử tìm kiếm</h3>
+                                    <ul class="history-list">
+                                        <li class="history-item">
+                                            <a href="">Kem dưỡng da</a>
+                                        </li>
+                                        <li class="history-item">
+                                            <a href="">Kem mỹ phẩm</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="search-select"> 
+                                    <span class="select-label">Trong Shop</span>
+                                    <i class="select-icon fa-solid fa-angle-down"></i>
+    
+                                    <ul class="search-option">
+                                        <li class="option-item option-item-active">
+                                            <span>Trong Shop</span>
+                                            <i class="fa-solid fa-check"></i>
+                                        </li>
+                                        <li class="option-item ">
+                                            <span>Ngoài Shop</span>
+                                            <i class="fa-solid fa-check"></i>
+                                        </li>
+                                    </ul>
+                            </div>
+                            <button class="search-btn">
+                                <i class="search-btn-icon fa-solid fa-magnifying-glass"></i>
+                            </button>
+                        </div> 
+    
+                        <!-- cart layout -->
+                        <div class="header-cart">
+                            <div class="header-cart-wrap">
+                                <i class="header-cart-icon fa-solid fa-cart-shopping"></i>
+                                <span class="header-cart-notice">3</span>
+                                <!-- no-cart: cart-list-no-cart  -->
+                                <div class="cart-list ">
+                                    <img src="/assets/img/no-cart.png" alt="" class="list-no-cart-img">
+                                    <span class="cart-list-no-cart-msg">Chưa có sản phẩm</span>
+    
+                                    <h4 class="header-cart-heading">Sản phẩm đã đươc thêm</h4>
+                                    <ul class="cart-list-item">
+                                        <!-- cart item -->
+                                        <li class="cart-item">
+                                            <img src="/assets/img/banner-item4.jpg" alt="" class="cart-img">
+                                            <div class="cart-item-info">
+                                                <div class="cart-item-head">
+                                                    <h5 class="cart-item-name">Bếp từ đơn Smaragd</h5>
+                                                    <div class="cart-item-price-wrap">
+                                                        <span class="cart-item-price">900,000đ</span>
+                                                        <span class="cart-item-multiply">x</span>
+                                                        <span class="cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item-body">
+                                                    <span class="cart-item-descripsion">
+                                                        Phân loại: Bạc
+                                                    </span>
+                                                    <span class="cart-item-remove">Xoá</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart-item">
+                                            <img src="/assets/img/cart-item-3.webp" alt="" class="cart-img">
+                                            <div class="cart-item-info">
+                                                <div class="cart-item-head">
+                                                    <h5 class="cart-item-name">Bình giữ nhiệt 420ml EL7918</h5>
+                                                    <div class="cart-item-price-wrap">
+                                                        <span class="cart-item-price">290.000đ</span>
+                                                        <span class="cart-item-multiply">x</span>
+                                                        <span class="cart-item-qnt">2</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item-body">
+                                                    <span class="cart-item-descripsion">
+                                                        Phân loại: Nhựa
+                                                    </span>
+                                                    <span class="cart-item-remove">Xoá</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="cart-item">
+                                            <img src="/assets/img/product_2_1.webp" alt="" class="cart-img">
+                                            <div class="cart-item-info">
+                                                <div class="cart-item-head">
+                                                    <h5 class="cart-item-name">Máy vắt cam Bosch MCP3500</h5>
+                                                    <div class="cart-item-price-wrap">
+                                                        <span class="cart-item-price">800.000đ</span>
+                                                        <span class="cart-item-multiply">x</span>
+                                                        <span class="cart-item-qnt">1</span>
+                                                    </div>
+                                                </div>
+                                                <div class="cart-item-body">
+                                                    <span class="cart-item-descripsion">
+                                                        Phân loại: máy vắt cam
+                                                    </span>
+                                                    <span class="cart-item-remove">Xoá</span>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+    
+                                    <a href="#" class="cart-view-cart btn btn-primary" >Xem giỏ hàng</a>
+                                </div>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            
+            
+        </header>
+
+       <div class="content">
+            <div class="container wrapper ">
+               <div class="slider ">
+                    <div id="demo" class="carousel slide mt-4" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators ">
+                        <li data-target="#demo" data-slide-to="0" class="active dot"></li>
+                        <li data-target="#demo" data-slide-to="1" class="dot"></li>
+                        <li data-target="#demo" data-slide-to="2" class="dot"></li>
+                        </ul>
+                        
+                        <!-- The slideshow -->
+                        <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <a href="#dodungnhabep"><img src="/assets/img/slideshow_1.webp" alt="Los Angeles"  class="carousel-img"></a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#dodiengiadung"><img src="/assets/img/slideshow_2.webp" alt="Los Angeles"  class="carousel-img"> </a>
+                        </div>
+                        <div class="carousel-item">
+                            <a href="#bep-hutmui"><img src="/assets/img/slideshow_3.webp" alt="New York"  class="carousel-img"></a>
+                        </div>
+                        </div>
+                        
+                    </div>
+                </div>
+
+                <div id="khuyenmai" class="banner mt-5 wrapper ">
+                    <div class="collection-head">
+                        <img src="/assets/img/banner_top_home.webp" alt="khuyến mãi tháng 7" class="banner_top">
+                    </div>
+                    <div class="row collection-body">
+                        <div class="col-sm-3 banner-item">
+                            <div class="product-item">
+                                <a href=""><img src="/assets/img/banner-item1.jpg" alt="" class="banner-img"></a>
+
+                                <div class="banner-content text-center ">
+                                    <div class="product-title">
+                                        <a href="" >Bộ nồi Elo Smaragd Plus </a>
+                                    </div>
+                                    <div class="banner-list">
+                                        <div >
+                                            <span class="current-price">2,850,000đ</span>
+                                            <span class="original-price">5,200,000đ</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="product-tag"> -45%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 banner-item">
+                            <div class="product-item">
+                                <a href=""><img src="/assets/img/banner-item2.jpg" alt="" class="banner-img"></a>
+
+                                <div class="banner-content text-center ">
+                                    <div class="product-title">
+                                        <a href="" >Chảo rán Elo Mercury </a>
+                                    </div>
+                                    <div class="banner-list">
+                                        <div >
+                                            <span class="current-price">700,000đ</span>
+                                            <span class="original-price">1,149,400đ</span>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                                <div class="product-tag"> -39%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 banner-item">
+                            <div class="product-item">
+                                <a href=""><img src="/assets/img/banner-item3.jpg" alt="" class="banner-img"></a>
+
+                                <div class="banner-content text-center ">
+                                    <div class="product-title">
+                                        <a href="" >Máy xay sinh tố cầm tay Rocket</a>
+                                    </div>
+                                    <div class="banner-list">
+                                        <div >
+                                            <span class="current-price">790,000đ</span>
+                                            <span class="original-price">1,380,000đ</span>
+                                        </div>
+                                    
+                                    </div>
+                                </div>
+                                <div class="product-tag">-43%</div>
+                            </div>
+                        </div>
+                        <div class="col-sm-3 banner-item">
+                            <div class="product-item">
+                                <a href=""><img src="/assets/img/banner-item4.jpg" alt="" class="banner-img"></a>
+
+                                <div class="banner-content text-center ">
+                                    <div class="product-title">
+                                        <a href="" >Bếp từ đơn Smaragd</a>
+                                    </div>
+                                    <div class="banner-list">
+                                        <div >
+                                            <span class="current-price">900,000đ</span>
+                                            <span cldass="original-price">2,600,000đ</span> 
+                                        </div>
+                                     
+                                    </div>
+                                </div>
+                                <span class="product-tag"> -65%</span>
+                            </div>
+                      </div>
+                    </div>
+                </div>
+                <div class="row mt-5">
+                    <div class="col-sm-3">
+                        <nav class="sidenav">
+                            <span class="sidenav-header">
+                                <h3 class="sidenav-heading">Danh mục sản phẩm 
+                                </h3>
+                                <span class="sidenav-in-out">
+                                    <i class="fa-solid fa-minus  icon-minus"></i>
+                                </span>
+                            </span>
+                            <ul class="sidernav-list">
+                                <li class="sidernav-item sidernav-item-active">
+                                    <a href="#" class="sidernav-item-link">Tất cả sản phẩm</a>
+                                </li>
+                                <li class="sidernav-item">
+                                    <a href="#dodungnhabep"  class="sidernav-item-link">Đồ dùng nhà bếp</a>
+                                    <ul class="sub-sidernav">
+                                        <li><a href="#">- Ấm đun nước</a></li>
+                                        <li><a href="#">- Nồi</a></li>
+                                        <li><a href="#">- Chảo</a></li>
+                                        <li><a href="#">- Nồi áp suất</a></li>
+                                        <li><a href="#">- Cây lau nhà</a></li>
+                                        <li><a href="#">- Bát - Đũa - Thìa - Vá sạn</a></li>
+                                        <li><a href="#">- Dao - Kéo - Thớt  - Mài dao</a></li>
+                                        <li><a href="#">- Xay tiêu - Đĩa chuyển nhiệt</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidernav-item">
+                                    <a href="#dodiengiadung" class="sidernav-item-link">Đồ điện gia dùng</a>
+                                    <ul class="sub-sidernav">
+                                        <li><a href="#">- Nồi điện các loại</a></li>
+                                        <li><a href="#">- Máy xay - ép - vắt</a></li>
+                                        <li><a href="#">- Ấm đun nước</a></li>
+                                        <li><a href="#">- Máy rửa - sấy bát</a></li>
+                                        <li><a href="#">- Máy đánh trứng</a></li>
+                                        <li><a href="#">- Vỉ nướng điện</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidernav-item">
+                                    <a href="#bep-hutmui" class="sidernav-item-link">Bếp - Hút Mùi</a>
+                                    <ul class="sub-sidernav">
+                                        <li><a href="#">- Bếp từ</a></li>
+                                        <li><a href="#">- Hút mùi</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidernav-item">
+                                    <a href="#binh-hopcom" class="sidernav-item-link">Bình giữ nhiệt - Hộp cơm</a>
+                                    <ul class="sub-sidernav">
+                                        <li><a href="#">- Bình giữ nhiệt</a></li>
+                                        <li><a href="#">- Hộp cơm</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidernav-item">
+                                    <a href="#lamdep" class="sidernav-item-link">Làm đẹp</a>
+                                    <ul class="sub-sidernav">
+                                        <li><a href="#">- Máy sấy tốc</a></li>
+                                        <li><a href="#">- Kem đánh răng</a></li>
+                                    </ul>
+                                </li>
+                                <li class="sidernav-item">
+                                    <a href="#khuyenmai" class="sidernav-item-link">Khuyến mãi</a>
+                                </li>   
+                            </ul>
+                        </nav>
+                        <div class="sidebar-banner mt-4">
+                            <img src="/assets/img/col_sbar_banner1_img.webp" alt="">
+                        </div>
+                        <div class="sidebar-banner mt-4">
+                            <img src="/assets/img/col_sbar_banner2_img.webp" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-9">
+                        <div class="product-loop">
+                            <h3 id="dodungnhabep" class="product-title-heading">Đồ dùng nhà bếp</h3>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_1.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Chảo xào Elo WOK đa năng 5 in 1</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div>
+                                                    <span class="current-price">1,550,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_2.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bộ nồi Elo Luxemburg đúc liền nguyên khối</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">2,890,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_3.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bộ nồi Elo Top Collection Plus</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div>
+                                                    <span class="current-price">2.300,000đ</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_4.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Chảo rán EL5583 size 26cm</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">700,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_5.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Chảo rán vân đá Opal có vung size 28</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">780,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_6.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Cặp chảo rán WMF Pfanne</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">2,600,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_7.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi áp suất đun từ Elmich EL3369</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,350,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_8.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi luộc gà Elo Profi Therm 32cm</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,750,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_9.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Ấm đun từ Elo Bombee</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">800,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_10.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Quánh inox trimax EL3745</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">560,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_11.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Ấm đun từ Elo Ronda 3 lít</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">600,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_12.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi hấp Inox 304 Elmich size 22 và 26</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,250,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_13.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bộ nồi Elo Rubin Special</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">2,600,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_14.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi luộc gà Elo multilayer đúc liền</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,250,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_1_15.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi hấp Elo Rubin Bio Dunster</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div>
+                                                    <span class="current-price">950,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <h3 id="dodiengiadung" class="product-title-heading">Đồ điện gia dùng</h3>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_1.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy vắt cam Bosch MCP3500</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">800,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_2.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi chiên không dầu LocknLock EJF383 5,5L</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">2,400,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_3.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Ấm siêu tốc Smartcook KES-3861</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">270,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_4.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy xay sinh tố Philips HR-2223</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,600,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_5.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Ấm siêu tốc thủy tinh Lebenlang</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">420,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_6.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi áp suất điện Elmich PCS-1800</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">900,000đ</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_7.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi chiên không dầu Galuz G65</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,900,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_8.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy xay thịt LocknLock EJM172</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">790,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_9.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy xay sinh tố Philips HR2221/00</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,090,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_10.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy xay sinh tố Bosch MSM6S20B</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,650,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_11.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Nồi áp suất điện Philips HD2103</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,750,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_2_12.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Ấm siêu tốc Elmich KEE-1781</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">600,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <h3 id="bep-hutmui" class="product-title-heading">Bếp - Hút Mùi</h3>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_3_1.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bếp từ đơn Smaragd</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">900,000đ</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_3_2.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bếp từ đôi Dusler DLE888</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">14,000,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_3_3.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bếp từ đơn Elmich 1826</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">850,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>   
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_3_4.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bếp từ đơn Elmich 7952</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,290,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_3_5.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bếp từ đơn Elmich 6346</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">1,400,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_3_6.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >BẾP TỪ ĐÔI SPELIER SPM - 980I</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">13,900,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <h3 id="binh-hopcom" class="product-title-heading">Bình giữ nhiệt - Hộp cơm</h3>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_4_1.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bình đựng thức ăn giữ nhiệt 1500ml EL7284</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">520,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_4_2.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bình giữ nhiệt 500ml EL-6386</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">200,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_4_3.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bình giữ nhiệt Elmich 500ml EL0632</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">260,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>   
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_4_4.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bình giữ nhiệt 500ml EL2968</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">300,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_4_5.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bình giữ nhiệt Elmich 500ml EL6306</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">200,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_4_6.webp" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Bình giữ nhiệt 500ml EL-6491</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">150,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <h3 id="lamdep" class="product-title-heading">Làm đẹp</h3>
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_5_1.png" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy sấy tóc Kemei MS-KM8326</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">200,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_5_2.jpg" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy sấy tóc DELIYA</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">350,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_5_3.jpg" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Máy sấy tóc PANASONIC</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">500,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>   
+                            <div class="row mr-4">
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_5_4.jpg" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Kem đánh răng Crest 3D White</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">50,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_5_5.jpg" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Kem đánh răng SENSODYNE</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">53,000₫</span>
+                                                </div>
+                                            
+                                            </div>
+                                        </div>
+        
+                                    </div>
+                                </div>
+                                <div class="col-sm-4">
+                                    <div class="product-item mt-4">
+                                        <a href=""><img src="/assets/img/product_5_6.jpg" alt="" class="banner-img"></a>
+        
+                                        <div class="banner-content text-center ">
+                                            <div class="product-title">
+                                                <a href="" >Kem đánh răng Puri</a>
+                                            </div>
+                                            <div class="banner-list">
+                                                <div >
+                                                    <span class="current-price">43,000₫</span>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>    
+                            </div>
+                            <!--  -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>    
+
+    <footer class="footer mt-5">
+       <div class="container wrapper">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="footer-contact">
+                        <div class="footer-contact-logo">
+                            <a href="/"><img src="./assets/img/logo.webp" alt="Siêu thị Gia đình" /></a>
+                        </div>
+                        <div class="footer-contact-address">
+                            Địa chỉ:  Số 2A Vương Thừa Vũ, Thanh Xuân, Hà Nội
+                        </div>
+                        <div class="footer-contact-hotline">
+                            Hotline:  <a href="tel:033 691 5555">033 691 5555</a>
+                        </div>
+                        <div class="footer-contact-email">
+                            Email:  <a href="mailto:sieuthigiadinh86@gmail.com">sieuthigiadinh86@gmail.com</a>
+                        </div>
+                        <div class="footer-contact-openninghrs">
+                            Giờ mở cửa:  Từ 8:30 - 20:30 tất cả các ngày trong tuần (trừ ngày lễ, ngày Tết)
+                        </div>
+                        <div class="footer-confirmation">
+                            <a href="#footer">
+                                <img src="//theme.hstatic.net/200000266281/1000727941/14/footer_confirmation1.png?v=19" alt="Ảnh chứng nhận 1" />
+                            </a>
+                            <a href="#footer">
+                                <img src="//theme.hstatic.net/200000266281/1000727941/14/footer_confirmation2.png?v=19" alt="Ảnh chứng nhận 2" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-9">
+                    <div class="footer-information">
+                        <div class="footer-social-network">
+                            <a href="https://www.facebook.com/elohanoi" class="socialFacebook">
+                                <i class="fa-brands fa-facebook-f"></i>
+                            </a>        
+                            <a href="https://www.youtube.com/channel/UCTfk7g4mXLolU559Z7PsyVg" class="socialYoutube">
+                                <i class="fa-brands fa-youtube"></i>
+                            </a>                  
+                        </div>
+                        <div class="row mt-5">
+                            <div class="col-sm-4">
+                                <div class="footer-nav">
+                                    <h3>VỀ CHÚNG TÔI</h3>
+                                    
+                                    <ul class="no-bullets">
+                                        <li>
+                                            <a href="#">Trang chủ</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Giới thiệu</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Sản phẩm</a>
+                                        </li>
+                                        <li>
+                                            <a href="#">Tìm kiếm</a>
+                                        </li>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-4">
+                                <div class="footer-nav">
+                                    <h3>CHÍNH SÁCH</h3>
+                                    
+                                    <ul class="no-bullets">
+                                        
+                                        <li>
+                                            <a href="#">Chính sách đổi trả</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Chính sách bảo mật</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Điều khoản dịch vụ</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+                            <div class="col-sm-4">
+                                <div class="footer-nav">
+                                    <h3>TRỢ GIÚP</h3>
+                                    
+                                    <ul class="no-bullets">
+                                        
+                                        <li>
+                                            <a href="#">Một số câu hỏi thường gặp</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Hướng dẫn mua hàng</a>
+                                        </li>
+                                        
+                                        <li>
+                                            <a href="#">Liên hệ</a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+    
+                          </div>
+                    </div>
+                </div>
+            </div>
+       </div>
+        <div class="copyright text-center">
+            Copyrights by <a  href="#">Phạm Gia kiệt</a>
+        </div>
+    </footer>
+
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal-overlay js-modal-overlay"></div>
+        <div class="modal-body">
+
+            
+                <!-- Register form -->
+                <div class="auth-form register-form js-modal-Auth-Form-Register">
+                   <div class="auth-form-container">
+                    <div class="auth-form-header">
+                        <h3 class="auth-form-heading">Đăng ký</h3>
+                        <span class="switch-btn js-change-login">Đăng nhập</span>
+                    </div>
+                    <div class="form">
+                        <div class="auth-form-group">
+                            <input type="text" class="auth-form-input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form-group">
+                            <input type="password" class="auth-form-input" placeholder="Mật khẩu của bạn">
+                        </div>
+                        <div class="auth-form-group">
+                            <input type="password" class="auth-form-input" placeholder="Nhập lại mật khẩu của bạn">
+                        </div>
+                    </div>
+                    
+                    <div class="auth-form-aside">
+                        <p class="policy-text">
+                            Bằng việc đăng ký, bạn đã đồng ý với F8-Shop về
+                            <a href="" class="text-link">Điều khoản dịch vụ</a>
+                            và
+                            <a href="" class="text-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form-control">
+                         <button class="btn control-back btn-normal js-modal-close-register js-modal-return-register">TRỞ LẠI</button>
+                         <button class="btn btn-primary">ĐĂNG KÝ</button>
+                    </div>
+
+                   </div>
+                    <div class="auth-form-socials">
+                        <a href="" class="social-fb btn btn-size-s btn-icon">
+                            <i class="social-icon fa-brands fa-square-facebook"></i>
+                            <span class="social-title">
+                                Kết nối với Facebook
+                            </span>
+                        </a>
+                        <a href="" class="social-gg btn btn-size-s btn-icon">
+                            <i class="social-icon fa-brands fa-google"></i>
+                            <span class="social-title">
+                                Kết nối với Google
+                            </span>
+                        </a>
+                    </div>
+                </div>
+               
+                <!-- Login form -->
+                <div class="auth-form login-form js-modal-Auth-Form-Login">
+                    <div class="auth-form-container">
+                     <div class="auth-form-header">
+                         <h3 class="auth-form-heading">Đăng nhập</h3>
+                         <span class="switch-btn js-change-register">Đăng ký</span>
+                     </div>
+                     <div class="form">
+                         <div class="auth-form-group">
+                             <input type="text" class="auth-form-input" placeholder="Email của bạn">
+                         </div>
+                         <div class="auth-form-group">
+                             <input type="password" class="auth-form-input" placeholder="Mật khẩu của bạn">
+                         </div>
+                     </div>
+                     
+                     <div class="auth-form-aside">
+                         <div class="auth-form-help">
+                            <a href="" class="help-link help-forgot">Quên mật khẩu</a>
+                            <span class="help-separate"></span>
+                            <a href="" class="help-link no-hover">Cần trợ giúp?</a>
+                         </div>
+                     </div>
+ 
+                     <div class="auth-form-control">
+                          <button class="btn control-back btn-normal js-modal-close-login js-modal-return-login">TRỞ LẠI</button>
+                          <button class="btn btn-primary">ĐĂNG NHẬP</button>
+                     </div>
+ 
+                    </div>
+                     <div class="auth-form-socials">
+                         <a href="" class="social-fb btn btn-size-s btn-icon">
+                             <i class="social-icon fa-brands fa-square-facebook"></i>
+                             <span class="social-title">
+                                 Kết nối với Facebook
+                             </span>
+                         </a>
+                         <a href="" class="social-gg btn btn-size-s btn-icon">
+                             <i class="social-icon fa-brands fa-google"></i>
+                             <span class="social-title">
+                                 Kết nối với Google
+                             </span>
+                         </a>
+                     </div>
+                </div>
+        </div>
+    </div>
+
+    <Script>
+                const modal = document.querySelector('.js-modal')
+   
+    
+    
+                const loginForm = document.querySelector('.login-form')
+                const login = document.querySelector('.js-login')
+                const modalAuthFormLogin = document.querySelector('.js-modal-Auth-Form-Login')
+                const modalCloseLogin = document.querySelector('.js-modal-close-login')
+            // Login Form //
+                // Hàm hiển thị modal hiển thị đăng nhập (thêm class open vào modal)
+                function showModalLogin () {
+                    modal.classList.add('openLogin')
+                    registerForm.style.display = 'none'
+                }
+
+                // Hàm ẩn modal hiển thị đăng nhập (xoá class open vào modal)
+                function hideModalLogin () {
+                    modal.classList.remove('openLogin')
+                    registerForm.style.display = 'block'
+                }
+
+                login.addEventListener('click', showModalLogin)
+
+                
+                //Nghe hành vi click vào botton close
+                modalCloseLogin.addEventListener('click', hideModalLogin)
+
+                modal.addEventListener('click',  hideModalLogin)
+
+                modalAuthFormLogin.addEventListener('click', function(event) {
+                        event.stopPropagation()
+                }
+                )
+
+
+                const register = document.querySelector('.js-register')
+                const registerForm = document.querySelector('.register-form')
+                const modalCloseRegister = document.querySelector('.js-modal-close-register')
+                const modalAuthFormRegister = document.querySelector('.js-modal-Auth-Form-Register')
+
+            // RegisterForm //
+                function showModalRegister () {
+                    modal.classList.add('openRegister')
+                    loginForm.style.display = 'none'
+                }
+
+                // Hàm ẩn modal hiển thị đăng nhập (xoá class open vào modal)
+                function hideModalRegister () {
+                    modal.classList.remove('openRegister')
+                    loginForm.style.display = 'block'
+                }
+
+                register.addEventListener('click', showModalRegister)
+
+                //Nghe hành vi click vào botton close
+                modalCloseRegister.addEventListener('click', hideModalRegister)
+
+                modal.addEventListener('click',  hideModalRegister)
+
+                modalAuthFormRegister.addEventListener('click', function(event) {
+                        event.stopPropagation()
+                }
+                )
+
+                const changeLogin = document.querySelector('.js-change-login')
+
+                function SwitchChangeLogin () {
+                    registerForm.style.display = 'none'
+                    loginForm.style.display = 'block'
+                }
+
+                changeLogin.addEventListener('click', SwitchChangeLogin)
+
+
+                const changeRegister = document.querySelector('.js-change-register')
+
+                function SwitchChangeRegister () {
+                    registerForm.style.display = 'block'
+                    loginForm.style.display = 'none'
+                }
+
+                changeRegister.addEventListener('click', SwitchChangeRegister)
+
+                const modalReturnLogin = document.querySelector('.js-modal-return-login')
+
+
+                modalReturnLogin.addEventListener('click', function(){
+                    loginForm.style.display = 'none'
+                })
+                
+                const modalReturnRegister = document.querySelector('.js-modal-return-register')
+
+
+                modalReturnRegister.addEventListener('click', function(){
+                    registerForm.style.display = 'none'
+                })
+</Script>
+
+</body>
+</html>
